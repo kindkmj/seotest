@@ -9,6 +9,7 @@ import 'package:seo_renderer_example/examples/visibility_example.dart';
 void main() {
   runApp(
     RobotDetector(
+      debug: true,
       child: MaterialApp(
         home: MyApp(),
         navigatorObservers: [seoRouteObserver],
