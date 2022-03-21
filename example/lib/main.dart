@@ -29,7 +29,17 @@ class MyApp extends StatelessWidget {
           children: [
             TextRenderer(
               style: TextRendererStyle.header2,
-              text: "안녕하세요 텍스트 검색입니다.",
+              text: "flexmeKimminjin",
+              child: SelectableText("dksssadsa"),
+            ),
+            TextRenderer(
+              style: TextRendererStyle.header2,
+              text: "flexme Kim min jin",
+              child: SelectableText("dksssadsa"),
+            ),
+            TextRenderer(
+              style: TextRendererStyle.header2,
+              text: "츠케멘 김민",
               child: SelectableText("dksssadsa"),
             ),
             OutlinedButton(
