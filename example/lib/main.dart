@@ -1,3 +1,4 @@
+
 import 'package:flutter/material.dart';
 import 'package:seo_renderer/seo_renderer.dart';
 import 'package:seo_renderer_example/examples/image_renderer_example.dart';
@@ -26,6 +27,18 @@ class MyApp extends StatelessWidget {
           mainAxisSize: MainAxisSize.max,
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
+            TextRenderer(
+              style: TextRendererStyle.header1,
+              text: "안녕하세요 텍스트 검색입니다.",
+              child: SelectableText("dksssadsa"),
+            ),
+            Text("안녕하세요"),
+            Semantics(
+              child: Text("안ㄴ안안"),
+              label: "an name test kim",
+              readOnly: true,
+              enabled: true,
+            ),
             OutlinedButton(
               onPressed: () {
                 Navigator.of(context)
